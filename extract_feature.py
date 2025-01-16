@@ -55,7 +55,7 @@ def extract_features(img_path, output_path, algo="SIFT", max_keypoints=500):
 img_path = "test_img/"
 
 # Đường dẫn lưu đặc trưng
-output_path = "features.pkl"
+output_path = "features.csv"
 
 # Gọi hàm trích xuất
 extract_features(img_path, output_path, max_keypoints=500)
